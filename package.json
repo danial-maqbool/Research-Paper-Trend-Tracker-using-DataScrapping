@@ -1,0 +1,22 @@
+{
+  "name": "research-paper-trend-tracker",
+  "version": "1.0.0",
+  "description": "Preprint literature intelligence platform and research trend tracker powered by arXiv and Google Gemini.",
+  "scripts": {
+    "frontend:install": "cd frontend && npm install",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build",
+    "start": "python run.py",
+    "test": "pytest tests -v"
+  },
+  "keywords": [
+    "arxiv",
+    "research-trends",
+    "literature-tracker",
+    "gemini",
+    "data-scraping",
+    "ai-summaries"
+  ],
+  "author": "Danial Maqbool",
+  "license": "MIT"
+}
